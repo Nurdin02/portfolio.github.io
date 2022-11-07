@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Portfolio</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+</head>
+<body>
+    <nav class="navbar">
+        <ul class="link-group">
+            <li class="link active"><a href="#">home</a></li>
+            <li class="link"><a href="#">projects</a></li>
+            <li class="link"><a href="#">about</a></li>
+            <li class="link"><a href="#">contact</a></li>
+        </ul>
+    </nav>
+        <!-- home section -->
+    <section class="home-section active ">
+        <h1 class="hero-heading">hello, i am <br> Nurdin</h1>
+        <img src="images/me.png" class="home-img" alt="">
+        <button class="cliker-btn btn mb-4" onClick="onClick()" id="clicker">
+            Click for like: <a id="clicks">0</a>
+        </button>
+    </section>
+    <!-- project section -->
+    <section class="project-section ">
+        <h1 class="project-heading">some of my projects</h1>
+        <div class="project-container">
+            <div class="project-card">
+                <img src="images/buttons.jpg" class="project-img" alt="">
+                <div class="project-content">
+                    <h1 class="project-title">project 01</h1>
+                    <p class="project-info">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit vitae delectus cumque repudiandae aliquam optio accusamus natus nobis! Nam, sunt?</p>
+                    <div class="project-btn-grp">
+                        <button class="project-btn github">github repo</button>
+                        <button class="project-btn live">see live</button>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="images/buttons2.jpg" class="project-img" alt="">
+                <div class="project-content">
+                    <h1 class="project-title">project 02</h1>
+                    <p class="project-info">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit vitae delectus cumque repudiandae aliquam optio accusamus natus nobis! Nam, sunt?</p>
+                    <div class="project-btn-grp">
+                        <button class="project-btn github">github repo</button>
+                        <button class="project-btn live">see live</button>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="images/buttons3.jpg" class="project-img" alt="">
+                <div class="project-content">
+                    <h1 class="project-title">project 03</h1>
+                    <p class="project-info">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit vitae delectus cumque repudiandae aliquam optio accusamus natus nobis! Nam, sunt?</p>
+                    <div class="project-btn-grp">
+                        <button class="project-btn github">github repo</button>
+                        <button class="project-btn live">see live</button>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="images/buttons4.jpg" class="project-img" alt="">
+                <div class="project-content">
+                    <h1 class="project-title">project 04</h1>
+                    <p class="project-info">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit vitae delectus cumque repudiandae aliquam optio accusamus natus nobis! Nam, sunt?</p>
+                    <div class="project-btn-grp">
+                        <button class="project-btn github">github repo</button>
+                        <button class="project-btn live">see live</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- about section -->
+    <section class="about-section ">
+        <div class="about">
+            <div class="about-img-container">
+                <img src="images/me.png" class="about-img" alt="">
+                <button class="download-cv-btn">downlaod cv</button>
+            </div>
+            <p class="about-info">Lorem ipsum.....</p>
+        </div>
+        <!-- skills -->
+        <div class="skill-section">
+            <h1 class="heading">skills</h1>
+            <div class="skills-container">
+                <div class="skill-card">
+                    <img src="images/buttons5.png" class="skill-img" alt="">
+                    <div class="skill-level">98%</div>
+                    <h1 class="skill-name">HTML</h1>
+                    <p class="skill-info">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur, delectus!</p>
+                </div>
+                <div class="skill-card">
+                    <img src="images/buttons6.png" class="skill-img" alt="">
+                    <div class="skill-level">98%</div>
+                    <h1 class="skill-name">CSS</h1>
+                    <p class="skill-info">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur, delectus!</p>
+                </div>
+                <div class="skill-card">
+                    <img src="images/buttons7.png" class="skill-img" alt="">
+                    <div class="skill-level">98%</div>
+                    <h1 class="skill-name">JS</h1>
+                    <p class="skill-info">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur, delectus!</p>
+                </div>
+                <div class="skill-card">
+                    <img src="images/buttons8.png" class="skill-img" alt="">
+                    <div class="skill-level">98%</div>
+                    <h1 class="skill-name">React.js</h1>
+                    <p class="skill-info">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur, delectus!</p>
+                </div>
+                <div class="skill-card">
+                    <img src="images/buttons9.png" class="skill-img" alt="">
+                    <div class="skill-level">98%</div>
+                    <h1 class="skill-name">Node.js</h1>
+                    <p class="skill-info">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur, delectus!</p>
+                </div>
+            </div>
+        </div>
+        <!-- timeline -->
+        <div class="timeline">
+            <h1 class="heading">education and experience</h1>
+            <div class="card">
+                <div class="card-body">
+                    <h1 class="card-title">2000-2002</h1>
+                    <p class="card-detail">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto sequi recusandae laborum ipsam dignissimos nostrum vitae provident officia, consectetur ab accusantium corrupti exercitationem temporibus repellat non magni cupiditate ea reprehenderit.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h1 class="card-title">2002-2004</h1>
+                    <p class="card-detail">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto sequi recusandae laborum ipsam dignissimos nostrum vitae provident officia, consectetur ab accusantium corrupti exercitationem temporibus repellat non magni cupiditate ea reprehenderit.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h1 class="card-title">2004-2006</h1>
+                    <p class="card-detail">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto sequi recusandae laborum ipsam dignissimos nostrum vitae provident officia, consectetur ab accusantium corrupti exercitationem temporibus repellat non magni cupiditate ea reprehenderit.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h1 class="card-title">2006-2008</h1>
+                    <p class="card-detail">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto sequi recusandae laborum ipsam dignissimos nostrum vitae provident officia, consectetur ab accusantium corrupti exercitationem temporibus repellat non magni cupiditate ea reprehenderit.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h1 class="card-title">2008-2010</h1>
+                    <p class="card-detail">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto sequi recusandae laborum ipsam dignissimos nostrum vitae provident officia, consectetur ab accusantium corrupti exercitationem temporibus repellat non magni cupiditate ea reprehenderit.</p>
+                </div>
+            </div>
+    </section>
+    <!-- contact section -->
+<section class="contact-section">
+    <form class="contact-form">
+        <input type="text" name="name" id="name" autocomplete="off" placeholder="name">
+        <input type="text" name="email" id="email" autocomplete="off" placeholder="email">
+        <textarea name="msg" id="msg" placeholder="message" autocomplete="off"></textarea>
+        <button type="submit" class="form-submit-btn">contact</button>
+    </form>
+    <!-- map -->
+    <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2925.708882207884!2d74.5856362!3d42.836762900000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x389ec9dd931801a7%3A0x3a3427fe06df5614!2z0L_RgNC-0YHQvy4g0JzQuNGA0LAsINCR0LjRiNC60LXQug!5e0!3m2!1sru!2skg!4v1667749650430!5m2!1sru!2skg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+</section>
+    <script src="js/app.js"></script>
+</body>
+</html>
